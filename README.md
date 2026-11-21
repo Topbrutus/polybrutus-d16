@@ -1,5 +1,14 @@
 # POLYBRUTUS 16D — Exact Euclidean distance metric and tenfold ideal-graph eigenvalue
 
+## Official publicly verified scientific release
+
+- **Zenodo DOI:** [10.5281/zenodo.24408979](https://doi.org/10.5281/zenodo.24408979), public [record 24408979](https://zenodo.org/records/24408979), verified through the Zenodo public REST API.
+- **Frozen source tag:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d16/tree/v0.1.0), commit `c7700a46cb0b2c3d2556f50a207d86da84055ea0`.
+- **CI verification:** [GitHub Actions run 44844545340](https://github.com/Topbrutus/polybrutus-d16/actions/runs/44844545340), conclusion `success` for this exact source commit; both independent programs passed.
+- **Archived:** frozen Git-source ZIP, mathematics PDF note and JSON of all 210 labelled squared distances; public file checksums verified.
+- **Limits:** affine metric dimension 16 and chosen ideal graph dynamics only, not a new physical spacetime dimension or mathematical universal novelty.
+
+
 **Human research author:** Gabriel St-Pierre (Topbrutus), independent researcher.  
 **Scientific status:** reproducible exact mathematical computation; **not independently peer reviewed**.  
 **AI disclosure:** OpenAI ChatGPT (Astra) substantially assisted exact calculations, two separately implemented verification programs, research drafting and release work; AI is not an author.
