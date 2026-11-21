@@ -1,11 +1,12 @@
 cff-version: 1.2.0
-message: "Cite the publicly verified Zenodo DOI after release; before that cite the immutable tagged GitHub source."
+message: "Cite the official Polybrutus D16 preprint DOI 10.5281/zenodo.24408979."
 title: "Polybrutus 16D: Exact Conservative Euclidean Completion and a Tenfold Weighted-Graph Mode"
 authors:
   - family-names: "St-Pierre"
     given-names: "Gabriel"
     orcid: "https://orcid.org/0009-0009-9297-2336"
 version: "0.1.0"
+doi: 10.5281/zenodo.24408979
 date-released: "2026-11-20"
 url: "https://github.com/Topbrutus/polybrutus-d16"
 license: MIT
