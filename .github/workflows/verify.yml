@@ -1,0 +1,22 @@
+name: Verify Polybrutus D16 exact certificate
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install exact symbolic mathematics dependency
+        run: python -m pip install sympy==1.14.0
+      - name: Exact D16 Euclidean metric, Gram rank and model graph spectrum
+        run: python src/verify_d16.py
+      - name: Independent rational 210-pair metric and spectral roots
+        run: python tests/independent_d16.py
